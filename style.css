@@ -1,0 +1,418 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    line-height: 1.4;
+}
+
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* download box right side the picture */
+
+.download-box {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    background-color: black;
+    opacity: 0.6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.download-box:hover {
+    opacity: 1;
+}
+
+.download-box h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.download-box p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.download-box button {
+    background-color: #4caf50;
+    padding: 8px 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.download-box button:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+/* left button left side the picture */
+
+header .header-left {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+header .header-left:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+/* About */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.content-inner {
+    width: 65%;
+}
+
+.section img {
+    width: 33.33%;
+}
+
+.content-inner h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content-inner h3 {
+    font-size: 48px;
+    color: #4caf50;
+    margin: 20px 0;
+}
+
+.content-inner p strong {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.content-inner p {
+    font-weight: 300;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.about-content button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.about-content button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Clarity section */
+
+.clarity {
+    background-color: #f1f1f1;
+}
+
+.clarity img {
+    border-radius: 5px;
+}
+
+.clarity h3 {
+    color: #f44336;
+}
+
+
+/* Features */
+
+.features {
+    background-color: #616161;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.features h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.features-item {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.item-inner {
+    width: 25%;
+}
+
+.item-inner i {
+    font-size: 64px;
+}
+
+.item-inner p {
+    margin: 20px 0;
+}
+
+
+/* Pricing section */
+
+.pricing {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.pricing-package {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.pricing-box {
+    width: 50%;
+    border: 1px solid #f1f1f1;
+    box-shadow: 1px 1px 5px #616161;
+}
+
+.pricing-box:hover {
+    box-shadow: 2px 2px 10px #616161;
+}
+
+.pricing-box h5 {
+    background-color: #616161;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 25px 0;
+    z-index: 10;
+}
+
+.premium h5 {
+    background-color: #f44336;
+}
+
+.pricing-box p {
+    padding: 15px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.pricing-box h4 {
+    font-size: 30px;
+    color: #616161;
+    padding: 10px 0;
+    font-weight: 400;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.pricing-box .download-package {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.download-package button {
+    background-color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    display: inline-block;
+}
+
+.download-package button:hover {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f1f1f1;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .list-contact {
+    padding: 40px 0 10px 0;
+}
+
+footer .list-contact a i {
+    font-size: 25px;
+    color: black;
+    margin-right: 5px;
+}
+
+footer .list-contact a:hover i {
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+
+footer p span {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer p span:hover {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* responsive for tablet */
+
+@media only screen and (max-width: 1000px) {
+    .download-box {
+        width: 250px;
+        top: 30%;
+    }
+}
+
+
+/* responsive for moible */
+
+@media only screen and (max-width: 800px) {
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .download-box h3,
+    .download-box p {
+        display: none;
+    }
+    .download-box {
+        width: 100%;
+        order: 1;
+        padding: 0;
+        background-color: transparent;
+        position: unset;
+    }
+    .download-box button {
+        border-radius: 0;
+        opacity: 1;
+        background-color: green;
+    }
+    header img {
+        order: 2;
+    }
+    header .header-left {
+        order: 3;
+        position: unset;
+        border-radius: 0;
+    }
+    /* About */
+    .section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content-inner {
+        width: 100%;
+    }
+    .section img {
+        width: 70%;
+        max-width: 100%;
+        height: auto;
+        /* object-fit: cover; */
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content button {
+        background-color: transparent;
+        width: 100%;
+        order: 2;
+    }
+    /* Clarity */
+    .clarity img {
+        display: none;
+    }
+    /* Features */
+    .item-inner i {
+        font-size: 48px;
+    }
+    /* Pricing */
+    .pricing-package {
+        flex-direction: column;
+    }
+    .pricing-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    /* Footer */
+    footer .list-contact a i {
+        font-size: 20px;
+    }
+    footer p span {
+        padding: 4px 12px;
+    }
+}
